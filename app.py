@@ -14,7 +14,7 @@ api_key = os.getenv('API_KEY')
 llm = GooglePalm(api_key=api_key)
 
 # Initialize LLM
-llm = GooglePalm(api_key="AIzaSyB9jetP8GBXi3TSKEGOo3p-PCyHx8j3PVQ")
+
 pandas_ai = PandasAI(llm)
 
 # Streamlit App
